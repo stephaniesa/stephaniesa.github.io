@@ -1,0 +1,145 @@
+﻿<master version="5.1" minAllowVersion="5.1" ID="63F198D5-DDA3-4B64-A02E-9F29C9568F05">
+  <controls>
+    <control controlID="653D719C-436C-48A0-95AF-D7A6E6FA430C" controlTypeID="Master" x="0" y="55" w="360" h="310" zOrder="0" masterID="63F198D5-DDA3-4B64-A02E-9F29C9568F05">
+      <groupChildrenDescriptors>
+        <control controlID="1D1095B6-EE62-4E15-A663-16592325E443" controlTypeID="List" x="0" y="0" w="360" h="310" zOrder="0">
+          <caption>Notifications</caption>
+          <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="Friend+1+send+you+an+invite.+Join+in+!">
+              <area shape="0" alt="" ID="{DE65C27D-2939-4EFC-9D18-62A74B0EBA36}" coords="(1,1,359,49)"/>
+            </link>
+            <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="Friend+3+He+start+coloring%3F+You+can+ask+to+join!">
+              <area shape="0" alt="" ID="{45BE5801-E471-4C13-A927-7F920192DE67}" coords="(1,49,359,97)"/>
+            </link>
+            <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="Friend+2+has+requested+to+join+in%3F+Send+him+a+password!">
+              <area shape="0" alt="" ID="{C8CEF20A-D8F7-4802-A1EE-8CADA8E78F49}" coords="(1,97,359,145)"/>
+            </link>
+            <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="Friend+3+sent+you+the+password+to+join!">
+              <area shape="0" alt="" ID="{BCA31E1F-1947-467D-AA4E-F53E67E99E73}" coords="(1,145,359,193)"/>
+            </link>
+            <link targetPageID="1910A4B0-B9D9-4215-8619-C68325C02BA6" linkType="ltPageLink" isApplyIncludePage="False" title="Your+painting+has+80+likes!+">
+              <area shape="0" alt="" ID="{0ADDCA13-9802-4F27-B67A-3E20E27F1C5A}" coords="(1,193,359,241)"/>
+            </link>
+            <link targetPageID="1910A4B0-B9D9-4215-8619-C68325C02BA6" linkType="ltPageLink" isApplyIncludePage="False" title="Two+people+have+commented+on+your+painting!">
+              <area shape="0" alt="" ID="{6B3263E9-35B9-46D8-A772-6CAF4BE6A6FA}" coords="(1,241,359,289)"/>
+            </link>
+            <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="">
+              <area shape="0" alt="" ID="{EEA45E70-7582-4322-85B6-2636EB9177B5}" coords="(1,289,359,310)"/>
+            </link>
+          </links>
+          <interactiveData>
+            <entry title="Friend+1+send+you+an+invite.+Join+in+!">
+              <area shape="0" alt="" ID="{6E26F6C8-4AEE-45C8-87C8-134CA562E781}" coords="(1,1,359,49)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="CCA9046D-276C-4982-8599-B6AED2240D02" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Popup State Change" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="0" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="AniType" value="0" varType="3" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+            <entry title="Friend+3+He+start+coloring%3F+You+can+ask+to+join!">
+              <area shape="0" alt="" ID="{F1102540-9055-46C5-9B70-EB1EDB98131B}" coords="(1,49,359,97)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="FACAA3C5-CC1E-4CD2-9141-115F837FC76C" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+            <entry title="Friend+2+has+requested+to+join+in%3F+Send+him+a+password!">
+              <area shape="0" alt="" ID="{D1CD8ED4-8B76-4EB4-8E4E-7ABC135F2816}" coords="(1,97,359,145)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="E989029F-99D3-42BC-99C1-51DB2A6B6048" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+            <entry title="Friend+3+sent+you+the+password+to+join!">
+              <area shape="0" alt="" ID="{A213E4CE-D1E4-4AB5-99CE-3F9F12460FD5}" coords="(1,145,359,193)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="B4CBF25A-E7D6-4F36-B09D-EC21F75012B7" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+            <entry title="Your+painting+has+80+likes!+">
+              <area shape="0" alt="" ID="{11EEBD27-1A77-4995-AE9E-3FDA2D9673AE}" coords="(1,193,359,241)"/>
+              <events title=""/>
+            </entry>
+            <entry title="Two+people+have+commented+on+your+painting!">
+              <area shape="0" alt="" ID="{AEEB6AB3-E94B-4AB3-88E7-304B2CE9D73C}" coords="(1,241,359,289)"/>
+              <events title=""/>
+            </entry>
+            <entry title="">
+              <area shape="0" alt="" ID="{CBAE622C-AC61-4BAC-A027-30F74EEA4C12}" coords="(1,289,359,310)"/>
+              <events title=""/>
+            </entry>
+          </interactiveData>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Friend+1+send+you+an+invite.+Join+in+!%0D%0AFriend+3+He+start+coloring%3F+You+can+ask+to+join!%0D%0AFriend+2+has+requested+to+join+in%3F+Send+him+a+password!%0D%0AFriend+3+sent+you+the+password+to+join!%0D%0AYour+painting+has+80+likes!+%0D%0ATwo+people+have+commented+on+your+painting!%0D%0A%0D%0A</text>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>48</itemHeight>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

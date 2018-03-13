@@ -1,0 +1,15 @@
+﻿<master version="5.1" minAllowVersion="5.1" ID="1E51FD9E-E442-4180-A9A4-8CAE04CBA06E">
+  <controls>
+    <control controlID="A8D4B024-39F1-4252-A8F5-2EE2B4008E3A" controlTypeID="Master" x="105" y="0" w="150" h="386" zOrder="0" masterID="1E51FD9E-E442-4180-A9A4-8CAE04CBA06E">
+      <groupChildrenDescriptors>
+        <control controlID="0002D560-07DD-4F50-81C9-BFC80E47425B" controlTypeID="Menu" x="0" y="0" w="150" h="386" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>New%2CCtr%0D%0AOpen%2CCtrl%2BO%0D%0ASave+As+%3E%0D%0A---%0D%0Ao+Item1%0D%0AItem2%0D%0A%3D%0D%0Ax+Toggle+Item%0D%0A-Disabled+Item-%0D%0AClose</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>48</itemHeight>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

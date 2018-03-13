@@ -1,0 +1,13 @@
+﻿<master version="5.1" minAllowVersion="5.1" ID="73906DAF-BC2C-4F86-B7F7-09C9DACBCA8E">
+  <controls>
+    <control controlID="AE973E21-CFF2-44F8-AB04-4A9D76050A73" controlTypeID="Master" x="198" y="85" w="142" h="225" zOrder="4" masterID="73906DAF-BC2C-4F86-B7F7-09C9DACBCA8E">
+      <groupChildrenDescriptors>
+        <control controlID="21850F60-72C2-44EB-8BFA-2A68D29888A3" controlTypeID="Shape" x="0" y="0" w="142" h="225" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

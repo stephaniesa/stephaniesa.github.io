@@ -1,0 +1,142 @@
+﻿<mockup version="5.1" minAllowVersion="5.1" ID="C1FA8C33-CAE0-4832-899B-4BC5ED597CD5" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="19">
+    <control controlID="94B23755-82D3-496F-B341-CC863D2FF4F9" controlTypeID="__group__" x="0" y="0" w="360" h="52" zOrder="0">
+      <caption>Publish+Top+Menu</caption>
+      <groupChildrenDescriptors>
+        <control controlID="E38E8C84-74C4-4CBE-81AD-226CB47200CC" controlTypeID="Shape" x="0" y="0" w="360" h="52" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+          <radius>64</radius>
+          <radiusIsPercent>True</radiusIsPercent>
+        </control>
+        <control controlID="0EF53337-DAE4-4045-8351-54C2298F0DBF" controlTypeID="Button" x="20" y="15" w="68" h="22" zOrder="1">
+          <color>4294967040</color>
+          <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="95AC44F8-BF23-4C6B-A201-3AB1F94E03E2" linkType="ltPageLink" isApplyIncludePage="False" title="Draw+Screen">
+              <area shape="0" alt="" ID="{9C745705-0B06-4D75-86E2-981AC279A5CF}" coords="(0,0,68,22)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Go+back%0D%0A</text>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="6F92D2E4-4563-4736-B471-49F71F23728B" controlTypeID="Button" x="272" y="15" w="68" h="22" zOrder="2">
+          <color>4278216447</color>
+          <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="1910A4B0-B9D9-4215-8619-C68325C02BA6" linkType="ltPageLink" isApplyIncludePage="False" title="My+Page">
+              <area shape="0" alt="" ID="{9D7B0B44-2CBD-4F95-A478-31E200D744C8}" coords="(0,0,68,22)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Publish</text>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="DBAD2AD5-F2F8-46F1-AAC0-021B215D5C8C" controlTypeID="Label" x="130" y="15" w="99" h="22" zOrder="3">
+          <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>New+Publish</text>
+          <textSize>16</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="355FF183-10F2-4FEE-9D6E-320EEAD6AFA7" controlTypeID="Image" x="0" y="62" w="360" h="424" zOrder="1">
+      <caption>Image+to+be+Published</caption>
+      <URL>95D2E31E921C2A0B73D52A347407FB52.JPG</URL>
+    </control>
+    <control controlID="A4F59888-4B44-4C58-89B4-278A5A874F2A" controlTypeID="__group__" x="10" y="491" w="340" h="77" zOrder="2">
+      <caption>Share+menu</caption>
+      <groupChildrenDescriptors>
+        <control controlID="99C0A17F-8741-4447-BD3B-AD8043F592EB" controlTypeID="Shape" x="0" y="0" w="340" h="77" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="2BF6B1B7-1B9F-4258-9D1B-E47FDE982B88" controlTypeID="Image" x="10" y="19" w="37" h="38" zOrder="1">
+          <URL>BF242E592D6B205D0F75B24CFFC7C21A.PNG</URL>
+        </control>
+        <control controlID="CECFBAF3-2366-4E52-BE84-AFA2845A2B6D" controlTypeID="Image" x="57" y="19" w="37" h="38" zOrder="2">
+          <URL>1CC17E749FDA5FF13F7B969805557781.PNG</URL>
+        </control>
+        <control controlID="546F83DE-DD99-4A8E-84DD-23E613EAE64D" controlTypeID="Image" x="104" y="19" w="37" h="38" zOrder="3">
+          <URL>D2E8A4676076779D8836B70AEA523159.PNG</URL>
+        </control>
+        <control controlID="87386F03-603A-475E-ACC2-491DD6B7C92C" controlTypeID="Image" x="151" y="19" w="37" h="38" zOrder="4">
+          <URL>D7813B8746C465EBA549493D8ED81601.PNG</URL>
+        </control>
+        <control controlID="CEAFA1A4-1BBD-43B7-B744-BE93678CB266" controlTypeID="Image" x="234" y="9" w="70" h="58" zOrder="5">
+          <interactiveData>
+            <entry title="">
+              <area shape="0" alt="" ID="{EA2BD4A5-485B-4C29-A1C1-4028298A319B}" coords="(0,0,70,58)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="B0A28135-CE6C-47CA-ABC4-46B522D2EB8F" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Popup State Change" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="0" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="AniType" value="0" varType="3" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+          </interactiveData>
+          <URL>C4ED46F0632EC9BAF302578E3EF6CDF6.PNG</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="B0A28135-CE6C-47CA-ABC4-46B522D2EB8F" controlTypeID="PopupPanel" x="252" y="578" w="46" h="46" zOrder="3">
+      <caption>Share+menu+extension</caption>
+      <groupChildrenDescriptors>
+        <control controlID="73950D05-5CEB-49ED-9886-F6D701064457" controlTypeID="Panel" x="0" y="0" w="360" h="640" zOrder="0">
+          <locked>True</locked>
+          <color>1879048192</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>background</alias>
+          <groupChildrenDescriptors>
+            <control controlID="68D85F73-259E-459A-B50F-1A8F8AE4CFC9" controlTypeID="Border" x="0" y="0" w="360" h="640" zOrder="0">
+              <borderVisible>False</borderVisible>
+              <alias>borderLayer</alias>
+            </control>
+          </groupChildrenDescriptors>
+          <thinkness>1</thinkness>
+        </control>
+        <control controlID="7C62A2BD-16BB-4466-9808-74D0DD89B6FA" controlTypeID="PopupPanelContent" x="264" y="421" w="35" h="74" zOrder="1">
+          <color>16777215</color>
+          <alias>content</alias>
+          <groupChildrenDescriptors>
+            <control controlID="A3D45919-617E-4BC3-9B26-0736412619E9" controlTypeID="Image" x="0" y="40" w="35" h="34" zOrder="0">
+              <URL>8B8B84175C25F1382919E1020F890CAF.PNG</URL>
+            </control>
+            <control controlID="C5751BC6-B730-4BD3-A6AE-68C7B66796CD" controlTypeID="Image" x="0" y="0" w="35" h="34" zOrder="1">
+              <URL>00560A59EE109C908DD89A979D439D7B.PNG</URL>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

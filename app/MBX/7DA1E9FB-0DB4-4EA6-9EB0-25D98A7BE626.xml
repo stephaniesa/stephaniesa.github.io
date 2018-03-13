@@ -1,0 +1,44 @@
+﻿<mockup version="5.1" minAllowVersion="5.1" ID="7DA1E9FB-0DB4-4EA6-9EB0-25D98A7BE626" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="2DF9DDA8-B13A-4753-B874-BD2E73C5BFF8" controlTypeID="Image" x="0" y="-3" w="360" h="456" zOrder="0">
+      <URL>72D07966041F60A62F84BB6B93AC300F.JPG</URL>
+    </control>
+    <control controlID="252902EC-76C2-43BA-A821-982F5A506DA6" controlTypeID="Button" x="120" y="463" w="120" h="48" zOrder="1">
+      <color>4278203391</color>
+      <links eventType="AtClick" animate="AmPushRight" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="131DBE7D-C501-44F9-84F3-EFB66067EA9F" linkType="ltPageLink" isApplyIncludePage="False" title="Page">
+          <area shape="0" alt="" ID="{2E21461E-2669-448E-BC42-2C27658DE783}" coords="(0,0,120,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Welcome</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B1238E38-B61A-45A0-A851-95E25ED824C5" controlTypeID="Label" x="173" y="611" w="174" h="19" zOrder="2">
+      <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="92313E5B-DA76-4AEC-9802-4AAECF5A08C0" linkType="ltPageLink" isApplyIncludePage="False" title="Main+Screen">
+          <area shape="0" alt="" ID="{D6A6D2D7-105E-4A43-8C7C-D3C0D083DB50}" coords="(0,0,174,19)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Already+a+User%3FSign+In+here</text>
+      <textColor>4288217088</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="DF3910C3-8686-4649-A065-F8BEB58894A3" controlTypeID="Icon" x="130" y="481" w="8" h="8" zOrder="3">
+      <icon>
+        <ID/>
+        <iconFontName/>
+        <iconCode>-1</iconCode>
+      </icon>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4278229503</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

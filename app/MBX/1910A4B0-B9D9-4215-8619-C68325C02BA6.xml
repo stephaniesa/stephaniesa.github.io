@@ -1,0 +1,568 @@
+﻿<mockup version="5.1" minAllowVersion="5.1" ID="1910A4B0-B9D9-4215-8619-C68325C02BA6" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="48">
+    <control controlID="5D41BDFF-F6EC-4835-BC1F-9A528D736299" controlTypeID="__group__" x="0" y="0" w="360" h="52" zOrder="0">
+      <caption>Main+Page+Menu</caption>
+      <groupChildrenDescriptors>
+        <control controlID="F83D13F8-9D0E-405C-A439-6D9E2EC72432" controlTypeID="Shape" x="0" y="0" w="360" h="52" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+          <radius>26</radius>
+        </control>
+        <control controlID="AA9DE4D5-6274-40A6-B6DF-45BFACB08D8E" controlTypeID="Image" x="261" y="7" w="44" h="43" zOrder="1">
+          <caption>Your+Account</caption>
+          <interactiveData>
+            <entry title="">
+              <area shape="0" alt="" ID="{9B5076B1-1ED2-4119-BC9E-70AB09016175}" coords="(0,0,44,43)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="2CCE589B-977D-4134-BF39-BE44F5F61553" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+          </interactiveData>
+          <URL>D68D3EFBC9B4B2151406143ED14ACF38.PNG</URL>
+        </control>
+        <control controlID="1653CF35-24F0-4D87-A47F-E336097FD7DD" controlTypeID="Icon" x="10" y="18" w="20" h="20" zOrder="2">
+          <caption>Icon+Arrow+Back</caption>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="92313E5B-DA76-4AEC-9802-4AAECF5A08C0" linkType="ltPageLink" isApplyIncludePage="False" title="Main+Screen">
+              <area shape="0" alt="" ID="{D69ECEA4-E77A-4278-9247-01495CA6A3C9}" coords="(0,0,20,20)"/>
+            </link>
+          </links>
+          <icon>
+            <ID/>
+            <iconFontName>jdIonicons</iconFontName>
+            <iconCode>62154</iconCode>
+          </icon>
+          <URL>D95E480717200F895E41DB6E5B869596.svg</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2CCE589B-977D-4134-BF39-BE44F5F61553" controlTypeID="__group__" x="265" y="58" w="89" h="78" zOrder="1">
+      <isShow>False</isShow>
+      <caption>Pop+up+menu</caption>
+      <groupChildrenDescriptors>
+        <control controlID="74844D57-8824-4AD5-987F-44D95286E830" controlTypeID="Panel" x="0" y="0" w="89" h="78" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="40414AD5-60FD-4F3B-B237-D5CF7D09DFE0" controlTypeID="Border" x="0" y="0" w="89" h="78" zOrder="0">
+              <alias>borderLayer</alias>
+            </control>
+          </groupChildrenDescriptors>
+          <thinkness>1</thinkness>
+        </control>
+        <control controlID="EED476DD-37A5-44F1-ADAC-AF6A8A67CEF0" controlTypeID="Button" x="0" y="9" w="89" h="27" zOrder="1">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Settings</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="941EA77C-61DB-4691-8F4A-BC090486C5AD" controlTypeID="Button" x="0" y="43" w="89" h="27" zOrder="2">
+          <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="7DA1E9FB-0DB4-4EA6-9EB0-25D98A7BE626" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+              <area shape="0" alt="" ID="{48C70601-9D89-4BA1-A7CC-430718278060}" coords="(0,0,89,27)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Log+out%0D%0A</text>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="9C0B9D73-C7CA-4F51-A5DD-815E1FB7AB69" controlTypeID="__group__" x="10" y="62" w="170" h="225" zOrder="2">
+      <caption>Post+1</caption>
+      <groupChildrenDescriptors>
+        <control controlID="E6EF2097-4A60-485A-B2E5-92DE50538D56" controlTypeID="Shape" x="0" y="0" w="170" h="225" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B2EF0A7C-E3A4-417E-9C40-D37828B25B7E" controlTypeID="Image" x="17" y="10" w="130" h="177" zOrder="1">
+          <URL>95D2E31E921C2A0B73D52A347407FB52.JPG</URL>
+        </control>
+        <control controlID="6651C0F9-5570-47CB-864F-015C60C08B8C" controlTypeID="Link" x="95" y="196" w="72" h="19" zOrder="2">
+          <interactiveData>
+            <entry title="">
+              <area shape="0" alt="" ID="{FA2774CE-69CE-4C04-82FA-65E70C5ECF34}" coords="(0,0,72,19)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="C023C54C-3A29-4627-BB86-1EAB80D7DD41" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Popup State Change" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="0" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="AniType" value="0" varType="3" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+          </interactiveData>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Comments</text>
+          <textColor>4284900966</textColor>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="22DAD0CB-9D3D-41B6-9CC7-45C6C94C8EE9" controlTypeID="Image" x="17" y="187" w="30" h="28" zOrder="3">
+          <caption>red+hearth</caption>
+          <URL>9213D50EE5C5386ABA1DC23FB4D897EC.png</URL>
+        </control>
+        <control controlID="91F1373F-2A37-477A-9EED-FD54C0F53E46" controlTypeID="TextInput" x="47" y="201" w="38" h="14" zOrder="4">
+          <borderVisible>False</borderVisible>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>80</text>
+          <textAlign>HaCenter</textAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="A597382B-388F-4E1F-BED5-573627ED1803" controlTypeID="__group__" x="26" y="323" w="176" h="104" zOrder="3">
+      <isShow>False</isShow>
+      <caption>User+card</caption>
+      <groupChildrenDescriptors>
+        <control controlID="0D124228-F3B9-4366-8A46-A21FEF3C50CD" controlTypeID="Shape" x="0" y="0" w="176" h="104" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="67B37B5D-87CD-4AD2-94FF-A0BF3BC4D76F" controlTypeID="AvatarEx2" x="0" y="0" w="61" h="61" zOrder="1">
+          <icon>
+            <ID/>
+            <iconFontName>jdiconfontB</iconFontName>
+            <iconCode>59652</iconCode>
+          </icon>
+          <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+        </control>
+        <control controlID="702E331F-1CD3-4477-9849-5E1DA63DF805" controlTypeID="Button" x="49" y="71" w="69" h="28" zOrder="2">
+          <interactiveData>
+            <entry title="">
+              <area shape="0" alt="" ID="{ACFD0B1D-FA6D-4C40-93B9-A1C71B657362}" coords="(0,0,60,60)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                    <target targetID="2F660879-D1E0-4EC7-A7B2-BC579C619E6A" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+          </interactiveData>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Request</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="E4D59116-F038-485B-9A83-3E4D4FA285C1" controlTypeID="TextArea" x="64" y="0" w="112" h="71" zOrder="3">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Username%3A+User+1%0D%0AFollowers%3A354%0D%0ALikes+7098</text>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2F660879-D1E0-4EC7-A7B2-BC579C619E6A" controlTypeID="__group__" x="202" y="323" w="152" h="50" zOrder="4">
+      <isShow>False</isShow>
+      <caption>Message</caption>
+      <groupChildrenDescriptors>
+        <control controlID="E59EFDF7-2D1C-4AC4-8809-E229ABD7557B" controlTypeID="Shape" x="0" y="0" w="152" h="50" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="9F5AE38A-0019-48CF-AD92-828867480504" controlTypeID="Label" x="16" y="10" w="126" h="19" zOrder="1">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Write+the+message..</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="7664661F-851B-4410-9442-41609522D40C" controlTypeID="Button" x="49" y="29" w="60" h="21" zOrder="2">
+          <interactiveData>
+            <entry title="">
+              <area shape="0" alt="" ID="{DC422017-FEAC-4A5A-84D1-DBF0AD5C35FF}" coords="(0,0,60,60)"/>
+              <events title="">
+                <event eventType="atClick" isChecked="True">
+                  <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emSequence">
+                    <target targetID="2F660879-D1E0-4EC7-A7B2-BC579C619E6A" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                    <target targetID="A597382B-388F-4E1F-BED5-573627ED1803" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Change Visibility" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="1" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                        <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                        <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                      </command>
+                    </target>
+                    <target targetID="C023C54C-3A29-4627-BB86-1EAB80D7DD41" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                      <command name="Popup State Change" isChecked="True" descrition="">
+                        <param name="AniInterpolation" value="0" varType="3" description=""/>
+                        <param name="AniDuration" value="200" varType="3" description=""/>
+                        <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                        <param name="AniLoop" value="False" varType="11" description=""/>
+                        <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                        <param name="Delay" value="0" varType="3" description=""/>
+                        <param name="Value" value="2" varType="3" description=""/>
+                        <param name="AniType" value="0" varType="3" description=""/>
+                      </command>
+                    </target>
+                  </behaviour>
+                </event>
+              </events>
+            </entry>
+          </interactiveData>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Send%0D%0A</text>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="CD23F451-6BF9-4573-8273-54FB6337608A" controlTypeID="TextInput" x="302" y="12" w="48" h="35" zOrder="5">
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>80</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E5CCB01E-EC88-4F13-B5A8-9FFB46097CE6" controlTypeID="Image" x="326" y="21" w="16" h="19" zOrder="6">
+      <URL>9213D50EE5C5386ABA1DC23FB4D897EC.png</URL>
+    </control>
+    <control controlID="C023C54C-3A29-4627-BB86-1EAB80D7DD41" controlTypeID="PopupPanel" x="26" y="323" w="46" h="46" zOrder="7">
+      <groupChildrenDescriptors>
+        <control controlID="203B1B28-1A6E-4536-B729-E6B65200BE97" controlTypeID="Panel" x="0" y="0" w="360" h="640" zOrder="0">
+          <locked>True</locked>
+          <color>1879048192</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>background</alias>
+          <groupChildrenDescriptors>
+            <control controlID="02AB17A3-D903-4103-82F5-EADE526CA78F" controlTypeID="Border" x="0" y="0" w="360" h="640" zOrder="0">
+              <borderVisible>False</borderVisible>
+              <alias>borderLayer</alias>
+            </control>
+          </groupChildrenDescriptors>
+          <thinkness>1</thinkness>
+        </control>
+        <control controlID="22585053-B637-4FC7-B2FB-F4453B3972F7" controlTypeID="PopupPanelContent" x="58" y="298" w="243" h="192" zOrder="1">
+          <color>16777215</color>
+          <alias>content</alias>
+          <groupChildrenDescriptors>
+            <control controlID="E2AE6C53-AFCE-4A5B-B63D-620E188996D3" controlTypeID="__group__" x="0" y="0" w="243" h="192" zOrder="0">
+              <caption>Mega+Group</caption>
+              <groupChildrenDescriptors>
+                <control controlID="D6BE8F5E-A9B8-49BF-8AF7-B286FA9309F1" controlTypeID="Shape" x="0" y="0" w="243" h="192" zOrder="0">
+                  <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="098494CE-DC5D-41F8-99DE-8DE7DDB38888" controlTypeID="__group__" x="2" y="0" w="240" h="29" zOrder="1">
+                  <caption>Comment+1</caption>
+                  <groupChildrenDescriptors>
+                    <control controlID="849C64EE-737F-4F52-BA26-BB15619BEE3B" controlTypeID="TextArea" x="0" y="0" w="240" h="29" zOrder="0">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>+++++++++++++++This+is+incredibe%0D%0A</text>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                    <control controlID="F0BC588B-7B66-4B68-A041-04CEDED10EFA" controlTypeID="Link" x="0" y="0" w="51" h="19" zOrder="1">
+                      <interactiveData>
+                        <entry title="">
+                          <area shape="0" alt="" ID="{BDD0A38C-A438-49D4-8B9E-705CA5DD609F}" coords="(0,0,51,19)"/>
+                          <events title="">
+                            <event eventType="atClick" isChecked="True">
+                              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                                <target targetID="A597382B-388F-4E1F-BED5-573627ED1803" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                                  <command name="Change Visibility" isChecked="True" descrition="">
+                                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                                    <param name="AniDuration" value="200" varType="3" description=""/>
+                                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                    <param name="AniLoop" value="False" varType="11" description=""/>
+                                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                    <param name="Delay" value="0" varType="3" description=""/>
+                                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                                    <param name="Value" value="2" varType="3" description=""/>
+                                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                                  </command>
+                                </target>
+                                <target targetID="C023C54C-3A29-4627-BB86-1EAB80D7DD41" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                                  <command name="Popup State Change" isChecked="True" descrition="">
+                                    <param name="AniInterpolation" value="0" varType="3" description=""/>
+                                    <param name="AniDuration" value="200" varType="3" description=""/>
+                                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                    <param name="AniLoop" value="False" varType="11" description=""/>
+                                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                    <param name="Delay" value="0" varType="3" description=""/>
+                                    <param name="Value" value="2" varType="3" description=""/>
+                                    <param name="AniType" value="0" varType="3" description=""/>
+                                  </command>
+                                </target>
+                              </behaviour>
+                            </event>
+                          </events>
+                        </entry>
+                      </interactiveData>
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>User+1+%3A</text>
+                      <textSize>14</textSize>
+                      <lineSpacing>0</lineSpacing>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="567A973E-DBB9-40E1-B4B7-359AADCD843A" controlTypeID="__group__" x="2" y="58" w="240" h="29" zOrder="2">
+                  <caption>Comment+2</caption>
+                  <groupChildrenDescriptors>
+                    <control controlID="891EEAA6-66F8-4F0C-9150-77F4595F2051" controlTypeID="TextArea" x="0" y="0" w="240" h="29" zOrder="0">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>+++++++++++++++This+is+wonderful%0D%0A</text>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                    <control controlID="3224E22C-C3FD-47CB-ADF1-13080ABF6C4F" controlTypeID="Link" x="0" y="0" w="51" h="19" zOrder="1">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>User+2+%3A</text>
+                      <textSize>14</textSize>
+                      <lineSpacing>0</lineSpacing>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="2FB8A59F-7002-4943-9F8C-DB465A4652E1" controlTypeID="Button" x="175" y="2" w="58" h="22" zOrder="3">
+                  <caption>Add</caption>
+                  <color>4282501083</color>
+                  <interactiveData>
+                    <entry title="">
+                      <area shape="0" alt="" ID="{B569F42D-0C01-415F-8B46-94F302B25B71}" coords="(0,0,58,22)"/>
+                      <events title="">
+                        <event eventType="atClick" isChecked="True">
+                          <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                            <target targetID="5E021813-E178-4B13-A5B2-D64CF6F934D2" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                              <command name="Change Visibility" isChecked="True" descrition="">
+                                <param name="AniInterpolation" value="1" varType="3" description=""/>
+                                <param name="AniDuration" value="200" varType="3" description=""/>
+                                <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                <param name="AniLoop" value="False" varType="11" description=""/>
+                                <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                <param name="Delay" value="0" varType="3" description=""/>
+                                <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                                <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                                <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                                <param name="Value" value="2" varType="3" description=""/>
+                                <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                              </command>
+                            </target>
+                          </behaviour>
+                        </event>
+                      </events>
+                    </entry>
+                  </interactiveData>
+                  <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Reply%0D%0A</text>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>0</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="E1A207E8-ED57-43E0-85F2-FE776D0AE92D" controlTypeID="Button" x="175" y="60" w="58" h="19" zOrder="4">
+                  <caption>Add</caption>
+                  <color>4282501083</color>
+                  <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Reply</text>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>0</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="D3D9CEC8-81FC-48BA-95D3-1F4617BB688E" controlTypeID="__group__" x="2" y="29" w="240" h="29" zOrder="5">
+                  <isShow>False</isShow>
+                  <caption>Your+Reply</caption>
+                  <groupChildrenDescriptors>
+                    <control controlID="D55250E8-AF9B-4ADE-903D-021E71AC72F1" controlTypeID="TextArea" x="0" y="0" w="240" h="29" zOrder="0">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>+++++++++++++++Thank+you+so+much%0D%0A</text>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                    <control controlID="08FB40CA-FFF3-496A-9F66-E9D2670B9FB0" controlTypeID="Link" x="0" y="0" w="34" h="19" zOrder="1">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>You+%3A</text>
+                      <textSize>14</textSize>
+                      <lineSpacing>0</lineSpacing>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="5E021813-E178-4B13-A5B2-D64CF6F934D2" controlTypeID="__group__" x="2" y="97" w="240" h="48" zOrder="6">
+                  <isShow>False</isShow>
+                  <caption>Write+reply</caption>
+                  <groupChildrenDescriptors>
+                    <control controlID="0C71B416-71CC-4C02-807E-6AF792A17B0A" controlTypeID="TextArea" x="0" y="0" w="240" h="48" zOrder="0">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>++++++++++++++Thank+you+so+much%0D%0A</text>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                    <control controlID="DA1EBD01-B59E-4483-AE97-DAD1078292D1" controlTypeID="Link" x="0" y="0" w="27" h="19" zOrder="1">
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>You</text>
+                      <textSize>14</textSize>
+                      <lineSpacing>0</lineSpacing>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                    <control controlID="6C25E911-1436-41C7-93B7-E92B20859599" controlTypeID="Button" x="91" y="29" w="58" h="19" zOrder="2">
+                      <caption>Add</caption>
+                      <color>4282501083</color>
+                      <interactiveData>
+                        <entry title="">
+                          <area shape="0" alt="" ID="{0528CF88-5521-4C07-9104-A9E6DC45FFDE}" coords="(0,0,60,60)"/>
+                          <events title="">
+                            <event eventType="atClick" isChecked="True">
+                              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                                <target targetID="D3D9CEC8-81FC-48BA-95D3-1F4617BB688E" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                                  <command name="Change Visibility" isChecked="True" descrition="">
+                                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                                    <param name="AniDuration" value="200" varType="3" description=""/>
+                                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                    <param name="AniLoop" value="False" varType="11" description=""/>
+                                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                    <param name="Delay" value="0" varType="3" description=""/>
+                                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                                    <param name="Value" value="2" varType="3" description=""/>
+                                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                                  </command>
+                                </target>
+                                <target targetID="5E021813-E178-4B13-A5B2-D64CF6F934D2" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                                  <command name="Change Visibility" isChecked="True" descrition="">
+                                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                                    <param name="AniDuration" value="200" varType="3" description=""/>
+                                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                    <param name="AniLoop" value="False" varType="11" description=""/>
+                                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                    <param name="Delay" value="0" varType="3" description=""/>
+                                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                                    <param name="Value" value="2" varType="3" description=""/>
+                                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                                  </command>
+                                </target>
+                              </behaviour>
+                            </event>
+                          </events>
+                        </entry>
+                      </interactiveData>
+                      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                      <text>OK%0D%0A</text>
+                      <textVAlign>VaTop</textVAlign>
+                      <lineSpacing>0</lineSpacing>
+                      <selectedIndex>-1</selectedIndex>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="21C6E1C3-0424-464F-B166-56534A1710E7" controlTypeID="Button" x="82" y="163" w="78" h="29" zOrder="7">
+                  <caption>Add</caption>
+                  <color>2885615616</color>
+                  <interactiveData>
+                    <entry title="">
+                      <area shape="0" alt="" ID="{D371D60D-F9FC-43A8-A862-C14127DD6D99}" coords="(0,0,78,29)"/>
+                      <events title="">
+                        <event eventType="atClick" isChecked="True">
+                          <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                            <target targetID="C023C54C-3A29-4627-BB86-1EAB80D7DD41" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                              <command name="Popup State Change" isChecked="True" descrition="">
+                                <param name="AniInterpolation" value="0" varType="3" description=""/>
+                                <param name="AniDuration" value="200" varType="3" description=""/>
+                                <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                                <param name="AniLoop" value="False" varType="11" description=""/>
+                                <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                                <param name="Delay" value="0" varType="3" description=""/>
+                                <param name="Value" value="2" varType="3" description=""/>
+                                <param name="AniType" value="0" varType="3" description=""/>
+                              </command>
+                            </target>
+                          </behaviour>
+                        </event>
+                      </events>
+                    </entry>
+                  </interactiveData>
+                  <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Close</text>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>0</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>46</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

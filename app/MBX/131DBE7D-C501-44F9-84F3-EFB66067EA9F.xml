@@ -1,0 +1,85 @@
+﻿<mockup version="5.1" minAllowVersion="5.1" ID="131DBE7D-C501-44F9-84F3-EFB66067EA9F" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="10">
+    <control controlID="1164E06A-C797-4A5F-A531-5F02CFE7DDBB" controlTypeID="TextInput" x="107" y="131" w="138" h="39" zOrder="0">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>User+name</text>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6F20C862-436B-4D0B-8913-310B0BA6D87B" controlTypeID="TextInput" x="107" y="201" w="138" h="39" zOrder="1">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Password</text>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D4D2F2B9-A8A4-4FBB-8D6C-EAB77562D80A" controlTypeID="__group__" x="20" y="385" w="130" h="26" zOrder="2">
+      <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="92313E5B-DA76-4AEC-9802-4AAECF5A08C0" linkType="ltPageLink" isApplyIncludePage="False" title="Main+Screen">
+          <area shape="0" alt="" ID="{0527F423-FCEF-492D-BA65-AA250F330B57}" coords="(0,0,130,26)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="40FC22C1-4A6B-40C2-A727-93E53EB8C3BF" controlTypeID="Button" x="0" y="0" w="130" h="26" zOrder="0">
+          <color>4288217088</color>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C1D6B226-342E-48FC-9CDC-00C39C0A9E4D" controlTypeID="Label" x="45" y="3" w="40" h="19" zOrder="1">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Gmail</text>
+          <textColor>4294967295</textColor>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="44C42CDA-658C-4307-AEB4-49CD5B216B1F" controlTypeID="__group__" x="220" y="385" w="130" h="26" zOrder="3">
+      <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="92313E5B-DA76-4AEC-9802-4AAECF5A08C0" linkType="ltPageLink" isApplyIncludePage="False" title="Main+Screen">
+          <area shape="0" alt="" ID="{3815A4E4-5D4E-44EC-B1CF-40540149D822}" coords="(0,0,130,26)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="069E8904-80AC-471A-AC85-FA64A39685B8" controlTypeID="Button" x="0" y="0" w="130" h="26" zOrder="0">
+          <color>4288217088</color>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B076FA9E-D800-4FDC-95A4-2F74388599FA" controlTypeID="Label" x="33" y="3" w="64" h="19" zOrder="1">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>FaceBook</text>
+          <textColor>4294967295</textColor>
+          <textAlign>HaCenter</textAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="AD45BDB4-8377-40C7-B5D8-DE29FA6DEF10" controlTypeID="Label" x="21" y="361" w="134" h="19" zOrder="4">
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Sign+Up+With+Gmail</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="F80197CD-BCF1-4F74-BE4E-676DC73A03C5" controlTypeID="Label" x="207" y="360" w="159" h="19" zOrder="5">
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Sign+Up+With+Facebook</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4278255462</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
